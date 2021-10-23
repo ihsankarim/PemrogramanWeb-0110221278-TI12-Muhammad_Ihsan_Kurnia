@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tugas Praktikum 3.2</title>
+</head>
+<body>
+    
+
+    <div class="nav" style="border: 1px solid black; margin: 50px;">
+        <ul>
+            <li style="display: inline-block; padding-right: 150px; padding-left: 50px; "><a href="#" style="text-decoration: none; color: black;">Home :</a> </li>
+            <li style="display: inline-block; padding-right: 150px;"><a href="#" style="text-decoration: none; color: black;">Generate Link :</a> </li>
+            <li style="display: inline-block; padding-right: 150px;"><a href="#" style="text-decoration: none; color: black;">Transaction History :</a> </li>
+            <li style="display: inline-block; padding-right: 150px;"><a href="#" style="text-decoration: none; color: black;">Policy :</a> </li>
+            <li style="display: inline-block; padding-right: 50px;"><a href="#" style="text-decoration: none; color: black;">Logout :</a> </li>
+        </ul>
+    </div>
+
+    <div class="Upload" style="margin: 20px 50px 20px 250px; float: left;">
+        <form action="#">
+            <table>
+                <tr>
+                    <td> <input type="file" value="Upload Picture" name="fileToUpload" 
+                        id="fileToUpload"  accept="image/*" style="width: 200px;
+                         height: 200px; border: 1px solid black; align-self: center; background-color: rgb(241, 241, 241); opacity: 1;">   </td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" alert( inputmode="file" ) style="margin-left: 50px;"> Upload Picture</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+        <div class="aside" style="width:50%; ; float: right; margin-left:40px ;">
+            <form action="#">
+                <table>
+                    <tr>
+                        <td><label for="form-title">Title Here</label></td>
+                        <td>:</td>
+                        <td><input type="search" name="title" id="form-title" style="width: 300px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="form-desc">Description</label></td>
+                        <td>:</td>
+                        <td><textarea name="description" id="form-desc" cols="60" rows="6" placeholder="Specs laptop"></textarea></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="form-tel">Account Number</label></td>
+                        <td>:</td>
+                        <td><input type="tel" name="account-tel" id="form-tel" style="width: 325px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="form-bank">Bank</label></td>
+                        <td>:</td>
+                        <td><select name="bank" id="form-bank" size="1" style="width: 250px;">
+                            <option value="1">Select Bank</option>
+                            <option value="2"> BRI</option>
+                            <option value="3">CIMB Niaga</option>
+                            <option value="4"> Mandiri</option>
+                            <option value="5"> BCA</option>
+                        </select></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="form-name">Account Holder</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="account-holder" id="form-name" style="width: 290px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="form-trans">Transaction</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="transaction" id="form-trans" min="1" max="10" style="width: 30px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td> 
+                            *if the transaction is for 3 person, choose 3 form the drop-drown list
+                            <br>
+                            <input type="checkbox" name="checklist" id="form-checklist">
+                            <label for="form-checklist">Send to Mobile Phone</label>
+                            <br>
+                            <input type="checkbox" name="checklist" id="form-checklist">
+                            <label for="form-checklict">Send to Mobile Email</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                         <td><label for="form-phone">Send to Mobile Phone</label></td>
+                         <td>:</td>
+                         <td><input type="text" name="mobile-phone" id="form-phone" style="width: 300px;"></td>
+                    </tr>
+
+                    <tr>
+                         <td><label for="form-email">Send to Email</label></td>
+                         <td>:</td>
+                         <td><input type="emal" name="costumeremail" id="form-email" style="width: 300px;"></td>   
+                    </tr>
+                     
+                    <tr>
+                         <td></td>
+                         <td></td>
+                         <td><input type="submit" value="Generate Nabr Link" 
+                            style="margin-top: 40px; background-color: green;
+                            color: white;"></td>
+                    </tr>
+                 </table>
+            </form>
+        </div>
+</body>
+</html>
+
+
+
